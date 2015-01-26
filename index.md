@@ -39,7 +39,7 @@ beanplot(PTS.G ~ Conference, data = nfl,
          log = "", col = "lightblue", method = "jitter")
 ```
 
-<img src="assets/fig/nfl-data-to-show-1.png" title="plot of chunk nfl-data-to-show" alt="plot of chunk nfl-data-to-show" style="display: block; margin: auto;" />
+<img src="assets/fig/nfl-data-1.png" title="plot of chunk nfl-data" alt="plot of chunk nfl-data" style="display: block; margin: auto;" />
 
 ---
 ## 217 Data
@@ -275,7 +275,8 @@ The evidence does not suggest that the true mean scoring rate is different in th
 1. Write a conclusion for the 217 Hypothesis test in the context of the problem.
 2. State the scope of inference for the 217 data.  
 3. The estimated difference in means for the 217 data is 0.25 and the standard error is 0.09.  Construct a 95% confidence interval using a critical value of 2.
-4. Interpret the confidence interval in the context of the problem.
+4. Interpret the confidence interval in the context of the problem.  For example, here's how I would interpret the conidence interval for the NFL data:
+  - "We are 95% confident that the true mean scoring rate for teams in the AFC is between 3.4 points higher and 3.1 points lower than the true mean scoring rate for teams in the NFC."
 5. Look back at the boxplot and beanplot of the NFL data.  The boxplot shows that the median scoring in the AFC is higher, but the beanplot shows that the mean scoring in the NFC is slightly higher.  Why might this be? (Hint: think back to the difference between mean and median.)
 6. I have been unable to come up with a better name for these exercises where I make a web page and have you work through it.  Suggest one here.  A bonus point if you make me laugh (must be appropriate).
 
