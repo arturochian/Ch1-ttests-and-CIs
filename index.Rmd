@@ -272,7 +272,7 @@ ggplot(dat7, aes(x = t, y = density, colour = df, linetype = df)) +
   ggtitle("Two Sided Alternative for 217 Data")
 ```
 
-1. Using R, obtain the p-value for the 217 data (you may need to go back to the *217 Test Statistic section to find the test statistic and the df).  Round to three decimal places.
+1. Using R, obtain the p-value for the 217 data (you may need to go back to the *217 Test Statistic* section to find the test statistic and the df).  Round to three decimal places.
 
 *** .hint
 Your code should look like `2 * pt(teststat, df, lower.tail = FALSE)`

@@ -238,7 +238,7 @@ For the 217 data we are using a two-sided alternative.  So we want to obtain a p
 
 <img src="assets/fig/217-pval-plot-1.png" title="plot of chunk 217-pval-plot" alt="plot of chunk 217-pval-plot" style="display: block; margin: auto;" />
 
-1. Using R, obtain the p-value for the 217 data (you may need to go back to the *217 Test Statistic section to find the test statistic and the df).  Round to three decimal places.
+1. Using R, obtain the p-value for the 217 data (you may need to go back to the *217 Test Statistic* section to find the test statistic and the df).  Round to three decimal places.
 
 *** .hint
 Your code should look like `2 * pt(teststat, df, lower.tail = FALSE)`
