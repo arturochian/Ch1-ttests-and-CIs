@@ -19,53 +19,46 @@
     </p>
    <![endif]-->
    <!-- Ref: http://twitter.github.com/bootstrap/examples/hero.html -->
-  <div class="container">
- <!-- row 1: navigation -->
-  <div class="row">
-    <div class="navbar-wrapper">
-      <div class="container">
-        <div class="navbar navbar-fixed-top my-navbar" role="navigation">
-          <div class="container">
-            <div class="navbar-header">
-              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#collapse"> 
-                <span class="icon-bar"></span>
-                <span > Menu</span> 
-                <span class="icon-bar"></span> 
-              </button>
-            <!--
-              <a class="navbar-brand" rel="home" href="/" title="Bryan Collins Portfolio">Blank</a> 
-            -->
-            </div>
 
-            <div class="collapse navbar-collapse my-navbar" id = "collapse">
-              <ul class="nav navbar-nav">
-                <li><a href="https://kferris.shinyapps.io/PHIStatSimScoreAppBat/">Batter App</a></li>
-                <li><a href="https://kferris.shinyapps.io/PHIStatSimScoreAppPit/">Pitcher App</a></li>
-                <li class="active"><a href="#">User Guide</a></li>
-              </ul>
-            </div>
+  <div class="container">
+
+    <div class = "row">
+
+      <div class = "col-md-9 col-sm-12">
+
+        <div class="jumbotron">
+          <div class="container">
+            <h1>{{ page.title }}</h1>
+            <h3>{{ page.subtitle }}</h3>
+            <h3>{{ page.author }}</h3>
+            <h3>{{ page.today }}</h3>
           </div>
         </div>
-      </div>
-    </div>
-  </div>
 
-  <div class = "row">
-    <div class = "col-md-9">
-      {{{ page.content }}}
-    </div>  <!-- end content -->
+        {{{ page.content }}}
 
-    <div class = "col-md-3">
-      <div class = "page-sidebar hidden-print hidden-xs hidden-sm affix-top">
-        <ul class = "nav navlist">
-          {{ #page.slides }}
-          <li><a href = "#{{id}}"> {{{ title }}}</a></li>
-          {{/page.slides}}
-        </ul>
-      </div>
-    </div>  <!-- end sidebar -->
- 
-  </div>  <!-- end row -->
+      </div>  <!-- end content -->
+
+      <div class = "col-md-3">
+        <div class = "page-sidebar hidden-print hidden-xs hidden-sm affix-top">
+          <ul class = "nav navlist">
+            {{ #page.slides }}
+            <li><a href = "#{{id}}"> {{{ title }}}</a></li>
+            {{/page.slides}}
+          </ul>
+        </div>
+      </div>  <!-- end sidebar -->
+
+    </div>  <!-- end row -->
+
+   
+      <!-- Footer -->
+      <footer id="top" role="footer">
+        <div class="container text-center">
+          <span class="text-muted">Built by <a href="http://slidify.org/">Slidify</a>.  Styled using <a href="http://getbootstrap.com/">Bootstrap</a>.  Hosted on <a href="https://github.com/">GitHub</a>.</span>
+        </div>
+      </footer>
+
   </div>  <!-- end container -->
 </body>
   <script src="{{page.url.framework}}/js/bootstrap.min.js"></script>

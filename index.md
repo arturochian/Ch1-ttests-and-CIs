@@ -1,15 +1,18 @@
 ---
-title       : Ch 1 - T tests and CIs
-subtitle    : Stat 217
-framework   : bootstrap3        # {io2012, html5slides, shower, dzslides, ...}
-highlighter : highlight  # {highlight.js, prettify, highlight}
-hitheme     : tomorrow      # 
-widgets     : [quiz, mathjax]            # {mathjax, quiz, bootstrap}
-mode        : selfcontained # {standalone, draft}
+title       : T tests and CIs
+subtitle    : "Chapter 1:"
+author      : "Stat 217"
+today       : "January 29, 2015"
+framework   : bootstrap3      
+highlighter : highlight.js  
+hitheme     : google_code    
+widgets     : [quiz, mathjax]       
+mode        : selfcontained 
 knit        : slidify::knit2slides
 layout      : deck3
 assets      : 
   css       : 
+    - "assets/css/table-styles.css"
     - "assets/css/custom.css"
     - "assets/css/moving_sidebar.css"
     - "http://fonts.googleapis.com/css?family=Vollkorn"
@@ -18,6 +21,7 @@ assets      :
 
 
 
+## Introduction
 
 In this activity we will be working with two data sets: one containing data on scoring rates of NFL teams and one containing data on GPA and gender from former 217 students.  I will work through the steps of a hypothesis test and confidence interval for the nfl data while asking you to do so for the 217 students.
 
